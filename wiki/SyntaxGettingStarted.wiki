@@ -75,7 +75,7 @@ BeginPss;
 output 'Santa, "Haven\'t you been good?"';
 
 EndPss;
-}
+}}}
 
 You notice I have placed a backslash by the apostrophe. That's because I want pss to show it. If I didn't put the apostrophe there, pss would think I was trying to end what I was outputting.
 
@@ -89,4 +89,4 @@ output 'Santa, "Haven\'t you been good? This Christmas. I know you\'ve been good
 EndPss;
 }}}
 
-Test
+[SyntaxComments]
