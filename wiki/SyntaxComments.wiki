@@ -1,0 +1,30 @@
+#summary One-sentence summary of this page.
+#labels Phase-Support
+
+= Introduction =
+
+We will cover: <br />
+- How to display comments inside of your code
+
+
+= Details =
+
+*How to display comments inside of your code*
+
+{{{
+BeginPss;
+
+COM: This is a comment that provides help about the script
+HIDE: This is a comment that provides help about the script
+hide This is a comment that provides help about the script
+
+output 'Hello World';
+
+EndPss;
+}}}
+
+Lets pretend I wanted to my friend "Jill" my .pss page. I would send her the file, she would open it, but she had no idea what any of it did. By using the above function now she does!
+
+It's simple, anything on the same line after "COM:", "HIDE:", or "hide" will not do anything. So you can write little messages here if you wish and it will interfere in the script in no way shape or form.
+
+Many choose to use it if other people are going to read their script, or to remind themselves what different things do.
