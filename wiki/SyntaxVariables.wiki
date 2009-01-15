@@ -104,3 +104,5 @@ EndPss;
 }}}
 
 Will Display; Hello Jamie Cooper
+
+Next Lesson: [SyntaxIfElse]
