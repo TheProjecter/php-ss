@@ -1,5 +1,5 @@
 #summary Lets get started with the PSS Syntax
-#labels Featured,Phase-Support
+#labels Featured,Phase-Manual
 
 = Introduction =
 
