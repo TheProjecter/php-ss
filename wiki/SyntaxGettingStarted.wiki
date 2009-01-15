@@ -1,14 +1,90 @@
-#summary One-sentence summary of this page.
+#summary Lets get started with the PSS Syntax
 #labels Featured,Phase-Support
 
 = Introduction =
 
-Add your content here.
-
+We will cover: <br />
+- What is a Syntax? <br />
+- Starting and Finishing Tags <br />
+- Basic output to browser <br />
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+*What is a Syntax?*
+
+A Syntax is the letters, words and characters you use to tell the script what to do. It'll become fairly familiar as you read on.
+
+*Starting and Finishing Tags*
+
+_Nb: Ensure you have read the readme included in the download._
+
+Open up your first.pss file that you have uploaded. 9If you haven't got this, create a file called "first.pss"
+
+Every .pss file must being with the following line,
+
+{{{
+BeginPss;
+}}}
+
+and must end with,
+
+{{{
+EndPss;
+}}}
+
+So our file will look like this,
+
+{{{
+BeingPss;
+
+
+EndPss;
+}}}
+
+Simple!
+
+*Basic output to browser*
+
+When you goto this page in your web browser (http://yoursite.com/first.pss) it's not going to show anything. So whenever we want to show something to the browser, or "output it to the browser" we do this,
+
+{{{
+BeginPss;
+
+output 'Hello World!';
+
+EndPss;
+}}}
+
+Anything you enclose in the apostrophes will be "outputted"
+
+A command mistake by newbies is failing to escape apostrophes.
+
+{{{
+BeginPss;
+
+output 'Santa, "Haven't you been good?"';
+
+EndPss;
+}}}
+
+The code above will output some horrible "Parse Error." Here's how to get around it.
+
+{{{
+BeginPss;
+
+output 'Santa, "Haven\'t you been good?"';
+
+EndPss;
+}
+
+You notice I have placed a backslash by the apostrophe. That's because I want pss to show it. If I didn't put the apostrophe there, pss would think I was trying to end what I was outputting.
+
+You'll have to do this for any instance the apostrophe is inside the output tag. Example,
+
+{{{
+BeginPss;
+
+output 'Santa, "Haven\'t you been good? This Christmas. I know you\'ve been good. Because I\'ve been checking my list."';
+
+EndPss;
+}}
