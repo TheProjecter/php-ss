@@ -87,6 +87,6 @@ BeginPss;
 output 'Santa, "Haven\'t you been good? This Christmas. I know you\'ve been good. Because I\'ve been checking my list."';
 
 EndPss;
-}}
+}}}
 
 [SyntaxComments]
