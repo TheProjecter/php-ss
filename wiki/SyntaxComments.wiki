@@ -1,5 +1,5 @@
 #summary Learn how to put comments on your code
-#labels Phase-Support
+#labels Phase-Manual
 
 = Introduction =
 
