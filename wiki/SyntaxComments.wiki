@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Learn how to put comments on your code
 #labels Phase-Support
 
 = Introduction =
@@ -28,3 +28,5 @@ Lets pretend I wanted to my friend "Jill" my .pss page. I would send her the fil
 It's simple, anything on the same line after "COM:", "HIDE:", or "hide" will not do anything. So you can write little messages here if you wish and it will interfere in the script in no way shape or form.
 
 Many choose to use it if other people are going to read their script, or to remind themselves what different things do.
+
+Next Lesson: [SyntaxVariables]
